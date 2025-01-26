@@ -1,0 +1,43 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:100vh;
+}
+
+.container{
+    display:flex;
+    position:relative;
+}
+
+.text-over-image{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-60%);
+    text-align:center;
+}
+
+#seasons{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(196, 103, 118);
+}
+
+#whereAbouts{
+    display:flex;
+    margin-top:420px;
+    margin-right:-60px;
+    margin-left:-50px;
+    color:rgb(196, 103, 118);
+}
+
+h1{
+    font-size:40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(196, 103, 118);
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(196, 103, 118);
+}
